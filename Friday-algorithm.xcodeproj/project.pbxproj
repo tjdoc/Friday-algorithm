@@ -14,6 +14,12 @@
 		A22A2E8D25552D6200CD1595 /* p2920.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A2E8625552D6200CD1595 /* p2920.swift */; };
 		A22A2E8F25552D6200CD1595 /* p1008.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A2E8825552D6200CD1595 /* p1008.swift */; };
 		A22A2E9825552DAC00CD1595 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A2E9725552DAC00CD1595 /* main.swift */; };
+		A234B9B52567508D000A51C9 /* hackerrank_SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234B9B42567508D000A51C9 /* hackerrank_SolveMeFirst.swift */; };
+		A234B9B82567589A000A51C9 /* hackerrank_grading_students.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234B9B72567589A000A51C9 /* hackerrank_grading_students.swift */; };
+		A234B9BB25675F57000A51C9 /* hackerrank_compareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234B9BA25675F57000A51C9 /* hackerrank_compareTheTriplets.swift */; };
+		A234B9BE25676227000A51C9 /* hackerrank_aVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234B9BD25676227000A51C9 /* hackerrank_aVeryBigSum.swift */; };
+		A234B9C1256762DF000A51C9 /* hackerrank_timeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234B9C0256762DF000A51C9 /* hackerrank_timeConversion.swift */; };
+		A234B9C425676836000A51C9 /* hackerrank_numberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234B9C325676836000A51C9 /* hackerrank_numberLineJumps.swift */; };
 		A2EF6E57255E1A34002AC9EA /* programmers_12910.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF6E56255E1A34002AC9EA /* programmers_12910.swift */; };
 		A2EF6E5A255E1E6B002AC9EA /* programmers_64061.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF6E59255E1E6B002AC9EA /* programmers_64061.swift */; };
 		A2EF6E5D255E2BE8002AC9EA /* programmers_68644.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF6E5C255E2BE8002AC9EA /* programmers_68644.swift */; };
@@ -43,6 +49,12 @@
 		A22A2E8625552D6200CD1595 /* p2920.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p2920.swift; sourceTree = "<group>"; };
 		A22A2E8825552D6200CD1595 /* p1008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = p1008.swift; sourceTree = "<group>"; };
 		A22A2E9725552DAC00CD1595 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A234B9B42567508D000A51C9 /* hackerrank_SolveMeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackerrank_SolveMeFirst.swift; sourceTree = "<group>"; };
+		A234B9B72567589A000A51C9 /* hackerrank_grading_students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackerrank_grading_students.swift; sourceTree = "<group>"; };
+		A234B9BA25675F57000A51C9 /* hackerrank_compareTheTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackerrank_compareTheTriplets.swift; sourceTree = "<group>"; };
+		A234B9BD25676227000A51C9 /* hackerrank_aVeryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackerrank_aVeryBigSum.swift; sourceTree = "<group>"; };
+		A234B9C0256762DF000A51C9 /* hackerrank_timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackerrank_timeConversion.swift; sourceTree = "<group>"; };
+		A234B9C325676836000A51C9 /* hackerrank_numberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackerrank_numberLineJumps.swift; sourceTree = "<group>"; };
 		A2EF6E56255E1A34002AC9EA /* programmers_12910.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers_12910.swift; sourceTree = "<group>"; };
 		A2EF6E59255E1E6B002AC9EA /* programmers_64061.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers_64061.swift; sourceTree = "<group>"; };
 		A2EF6E5C255E2BE8002AC9EA /* programmers_68644.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers_68644.swift; sourceTree = "<group>"; };
@@ -82,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				A22A2E9725552DAC00CD1595 /* main.swift */,
+				A234B9C0256762DF000A51C9 /* hackerrank_timeConversion.swift */,
+				A234B9C325676836000A51C9 /* hackerrank_numberLineJumps.swift */,
 				A2EF6E56255E1A34002AC9EA /* programmers_12910.swift */,
 				A2EF6E59255E1E6B002AC9EA /* programmers_64061.swift */,
 				A2EF6E5C255E2BE8002AC9EA /* programmers_68644.swift */,
@@ -94,6 +108,10 @@
 				A22A2E8625552D6200CD1595 /* p2920.swift */,
 				A22A2E8325552D6200CD1595 /* p8958.swift */,
 				A22A2E8425552D6200CD1595 /* p11654.swift */,
+				A234B9B42567508D000A51C9 /* hackerrank_SolveMeFirst.swift */,
+				A234B9B72567589A000A51C9 /* hackerrank_grading_students.swift */,
+				A234B9BA25675F57000A51C9 /* hackerrank_compareTheTriplets.swift */,
+				A234B9BD25676227000A51C9 /* hackerrank_aVeryBigSum.swift */,
 			);
 			path = "Friday-algorithm";
 			sourceTree = "<group>";
@@ -125,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1210;
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					A22A2E7625552D4800CD1595 = {
 						CreatedOnToolsVersion = 12.1;
@@ -155,10 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A234B9BE25676227000A51C9 /* hackerrank_aVeryBigSum.swift in Sources */,
 				A22A2E8B25552D6200CD1595 /* p11654.swift in Sources */,
 				A2EF6E5A255E1E6B002AC9EA /* programmers_64061.swift in Sources */,
+				A234B9B52567508D000A51C9 /* hackerrank_SolveMeFirst.swift in Sources */,
 				A22A2E9825552DAC00CD1595 /* main.swift in Sources */,
+				A234B9B82567589A000A51C9 /* hackerrank_grading_students.swift in Sources */,
 				A2EF6E6A255E4704002AC9EA /* programmers_12928.swift in Sources */,
+				A234B9BB25675F57000A51C9 /* hackerrank_compareTheTriplets.swift in Sources */,
+				A234B9C1256762DF000A51C9 /* hackerrank_timeConversion.swift in Sources */,
 				A22A2E8C25552D6200CD1595 /* p1000.swift in Sources */,
 				A22A2E8A25552D6200CD1595 /* p8958.swift in Sources */,
 				A2EF6E63255E3C4C002AC9EA /* programmers_12901.swift in Sources */,
@@ -166,6 +189,7 @@
 				A2EF6E5D255E2BE8002AC9EA /* programmers_68644.swift in Sources */,
 				A2EF6E57255E1A34002AC9EA /* programmers_12910.swift in Sources */,
 				A2EF6E60255E3015002AC9EA /* programmers_42840.swift in Sources */,
+				A234B9C425676836000A51C9 /* hackerrank_numberLineJumps.swift in Sources */,
 				A22A2E8925552D6200CD1595 /* p2438.swift in Sources */,
 				A22A2E8F25552D6200CD1595 /* p1008.swift in Sources */,
 			);
@@ -292,6 +316,7 @@
 		A22A2E7F25552D4800CD1595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89R7N92L7F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -303,6 +328,7 @@
 		A22A2E8025552D4800CD1595 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89R7N92L7F;
 				ENABLE_HARDENED_RUNTIME = YES;
