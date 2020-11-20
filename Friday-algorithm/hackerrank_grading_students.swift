@@ -7,23 +7,25 @@
 
 import Foundation
 
-
-func gradingStudents(grades: [Int]) -> [Int] {
+func gradingStudents_old(grades: [Int]) -> [Int] {
     var out = [Int]()
     for grade in grades {
         if grade < 38 {
             out.append(grade)
         } else {
-            let rem = grade%10
+            let rem = grade%5
             switch rem {
             case 3,4:
                 out.append(grade+5-rem)
-            case 8,9:
-                out.append(grade+10-rem)
             default:
                 out.append(grade)
             }
         }
     }
     return out
+}
+
+// using closure
+func gradingStudents(grades: [Int]) -> [Int] {
+    grades.map { $0 < 38 ? $0 : $0%5 >= 3 ? $0 + 5 - $0%5 : $0 }
 }

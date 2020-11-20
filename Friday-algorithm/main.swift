@@ -28,6 +28,7 @@ import Foundation
 print(solveMeFirst(1, 2) == 3 ? "PASS" : "FAIL")
 
 let originalGrade = [73, 67, 38, 33]
+print(gradingStudents(grades: originalGrade))
 print(gradingStudents(grades: originalGrade) == [75, 67, 40, 33] ? "PASS" : "FAIL")
 
 let a = [17, 28, 30]
