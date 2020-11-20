@@ -25,7 +25,7 @@ func gradingStudents_old(grades: [Int]) -> [Int] {
     return out
 }
 
-// using closure
+// using closure, inspried by Hong
 func gradingStudents(grades: [Int]) -> [Int] {
     grades.map { $0 < 38 ? $0 : $0%5 >= 3 ? $0 + 5 - $0%5 : $0 }
 }
