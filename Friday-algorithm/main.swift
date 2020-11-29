@@ -83,23 +83,8 @@ print(mysol5.longestCommonPrefix(["",""]) == "" ? "PASS" : "FAILED")
 print(mysol5.longestCommonPrefix(["ab","a"]) == "a" ? "PASS" : "FAILED")
 
 print("\nMerge Two Sorted Lists")
-
-
-var list3 = ListNode(3)
-var list2 = ListNode(2, list3)
-var list1 = ListNode(1, list2)
-var l1 = ListNode(100)
-var l2 = ListNode(2, l1)
-var l3 = ListNode(5, l2)
-
-
-//print(type(of:list0))
-//print(list0.val)
-//print(list0.next!.val)
-//
-//list1.next = list2
-//print(list1.val)
-//print(list1.next!.val)
-//
-//print(list0.next!.next!.val)
-//
+let mlist = MergeTwoSortedLists()
+let list0 = mlist.genNode([1,2,4,5,5,6,20])
+let list1 = mlist.genNode([1,3,5,9,10])
+let outNode = mlist.mergeTwoLists(list0, list1)
+mlist.printNode(outNode)
